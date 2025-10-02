@@ -1,3 +1,5 @@
+% Processes the platelist.fits file and displays number
+% of quasars, galaxies, and stars.
 info = fitsinfo('platelist.fits');
 disp(info);
 data = fitsread('platelist.fits', 'BINTABLE');
