@@ -1,5 +1,8 @@
 % Processes the manga-10001-12701-LOGCUBE.fits file and generates an
-% image of a spectrum of wavelengths
+% image of a spectrum of wavelengths.
+%
+% To find manga-10001-12701-LOGCUBE.fits file go to 
+% https://magrathea.sdss.org/marvin/galaxy/10001-12701/
 
 info = fitsinfo('manga-10001-12701-LOGCUBE.fits');
 cube = fitsread('manga-10001-12701-LOGCUBE.fits','Image',1);
