@@ -1,5 +1,5 @@
 % Driver file for mangalogcube to generate N plots of evenly spaced
-% wavelengths
+% wavelengths.
 
 N=36; % Number of subplots (must be square)
 
